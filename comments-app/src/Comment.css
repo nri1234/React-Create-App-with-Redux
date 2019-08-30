@@ -1,0 +1,63 @@
+.li-comment {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: 90%;
+}
+
+.li-comment > .votes {
+    font-size: 0.8rem;
+    margin-top: 45px;
+    font-weight: bold;
+    color: #44b1e4;
+}
+.comment-buttons {
+    align-self: flex-end;
+}
+
+.li-comment button {
+    background-color: inherit;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.b-icon.--thumbs-up {
+    color: #45e945;
+}
+
+.b-icon.--thumbs-up:hover {
+    color: #0a850a;
+}
+
+.b-icon.--thumbs-down {
+    color: #ee5e5e;
+}
+
+.b-icon.--thumbs-down:hover {
+    color: #cc0a0a;
+}
+
+.b-icon.--delete {
+    color: #706b6b;
+}
+
+.b-icon.--delete:hover {
+    color: #2b2929;
+}
+
+.b-icon.--edit {
+    color: #99aac0;
+}
+
+.b-icon.--edit:hover {
+    color: #6387b6;
+}
