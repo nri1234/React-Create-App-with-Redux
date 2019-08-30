@@ -27,6 +27,12 @@ export const Comment = ({
             >
                 <FontAwesomeIcon icon={["far", "thumbs-down"]} />
             </button>
+            <button
+                className="b-icon --delete"
+                onClick={() => removeComment(id)}
+            >
+                <FontAwesomeIcon icon={["far", "trash-alt"]} />
+            </button>
         </div>
     </li>
 );
